@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon">
+    <title>Visual language Interpreter</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1><b>Visual language Interpreter</b></h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home"><b>Home</b></a></li>
+            <li><a href="#about"><b>About Us</b></a></li>
+            <li><a href="#contact"><b>Contact Us</b></a></li>
+            <li><a href="./signup.html" class="button">Sign Up</a></li>     
+            
+
+        </ul>
+    </nav>
+
+    <label class="bb8-toggle" >
+          <input class="bb8-toggle__checkbox" type="checkbox" id="themeToggle">
+          <div class="bb8-toggle__container">
+            <div class="bb8-toggle__scenery">
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="bb8-toggle__star"></div>
+              <div class="tatto-1"></div>
+              <div class="tatto-2"></div>
+              <div class="gomrassen"></div>
+              <div class="hermes"></div>
+              <div class="chenini"></div>
+              <div class="bb8-toggle__cloud"></div>
+              <div class="bb8-toggle__cloud"></div>
+              <div class="bb8-toggle__cloud"></div>
+            </div>
+            <div class="bb8">
+              <div class="bb8__head-container">
+                <div class="bb8__antenna"></div>
+                <div class="bb8__antenna"></div>
+                <div class="bb8__head"></div>
+              </div>
+              <div class="bb8__body"></div>
+            </div>
+            <div class="artificial__hidden">
+              <div class="bb8__shadow"></div>
+            </div>
+          </div>
+        </label>
+
+       
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <img src="./img/logo.jpg" alt="" class="logo1">
+        <div class="hero-content">
+          
+            <h2>Bridging the Gap with Visual language Interpreter</h2>
+            <p>Convert sign language to speech effortlessly.</p>
+        <div class="btn-container">
+          <button type="button" class="bton" onclick="redirectToSignup()">
+            <strong>Get started</strong>
+            <div id="container-stars">
+              <div id="stars"></div>
+            </div>
+          
+            <div id="glow">
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </button>
+          
+          
+        </div>
+          
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2 class="abt">About Us</h2>
+        <p class="about"><b>Visual language Interpreter</b></p>
+        <p class="about"><b>Communication is a fundamental aspect of human interaction, yet millions of people around the world face 
+          barriers due to speech and hearing impairments. Traditional sign language serves as a vital means of communication 
+          for the deaf and Mute, but it often limits their ability to interact with those who do not understand it. To bridge
+           this gap, "Visual language Interpreter" seeks to provide an innovative solution that translates sign language 
+           into audible speech, facilitating seamless communication between sign language users and the broader community.</b></p>
+        
+            <img src="./img/sign.jpeg" alt="" class="img1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxUAjh2IQF0S7wREvPR5WxxamsXoIy5anJMw&s" 
+            alt="" class="img1">
+    </section>
+    <div class="contact-card" id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> contact@yourdomain.com</p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+      </div>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+    <button id="scrollUpButton" class="scroll-up">
+      <i class="fas fa-arrow-up"></i>
+  </button>
+
+
+    <script src="script.js"></script>
+    
+    <script>
+      function redirectToSignup() {
+        window.location.href = './signup.html'; 
+      }
+      
+    </script>
+</body>
+
+</html>

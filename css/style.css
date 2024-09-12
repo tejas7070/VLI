@@ -33,15 +33,16 @@ h1, h2 {
 }
 
 .nav-links li {
-  margin-right: 3rem;
+  margin-right: 5rem;
   margin-top: 1rem;
+  text-decoration: underline;
+   font-size: large;
 }
 
 .nav-links a {
   color: rgb(2, 238, 255);
-  text-decoration: none;
+  text-decoration:solid;
 }
-
 .signup-btn {
   padding: 0.5rem 1rem;
   background-color: #f04e30;

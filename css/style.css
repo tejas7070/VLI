@@ -1800,3 +1800,62 @@ p {
   font-size: 24px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.vli-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.vli-section h2 {
+  color: #3f66fc;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.vli-section h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vli-section p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #666;
+}
+
